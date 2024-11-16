@@ -1,0 +1,61 @@
+:root {
+    --box-shadow: -5px 5px 10px 5px rgb(128,128,128)
+}
+
+body {
+    margin: 0;
+}
+
+
+.filter-by-card {
+   border-radius: 12px;
+    padding: 12px;
+    margin-top:12px;
+    box-shadow: -5px 5px 10px 5px rgb(128,128,128)
+}
+.recomendation-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px;
+    gap:12px;
+    justify-content: center; 
+}
+/*recomendation*/
+.recomendation-card {
+    box-shadow: var(--box-shadow);
+    width: 150px;
+    border-radius: 12px;
+}
+.recommendation-image{
+    height: 150px;
+    width: 150px;
+    border-radius: 12px;
+
+}
+.recommendation-card-body {
+    padding: 0 12px 12px 12px;
+}
+.read-more-button {
+    box-shadow: var(--boxshadow--);
+    background-color: rgb ( 133, 133, 190);
+    padding: 12px;
+    border-radius: 12px;
+    float: right; 
+    margin-bottom: 12px;
+    cursor: pointer;
+
+}
+.read-more-button:hover {
+    background-color: rgb( 92, 92, 219);
+    }
+.subscription-form{
+    padding: 24px;
+}
+footer {
+    background-color: rgb( 92, 92, 219);
+    padding: 12px;
+    margin-top: 24px;
+    text-align: center;
+}
+
+
